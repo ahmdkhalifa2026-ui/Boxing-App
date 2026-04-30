@@ -1,0 +1,25 @@
+name: boxing_performance_evaluation_platform
+
+description: A Flutter project for evaluating boxing performance.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^5.0.0
+  http: ^0.13.3
+  intl: ^0.17.0
+  fl_chart: ^0.50.1
+  path_provider: ^2.0.8
+  excel: ^2.0.2
+
+flutter:
+  uses-material-design: true
+
+# Additional dependencies can be added below as needed.
